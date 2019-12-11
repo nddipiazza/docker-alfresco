@@ -118,8 +118,8 @@ services:
         image: osixia/openldap
         container_name: openldap
         environment:
-          LDAP_DOMAIN: "keensoft.es"
-          LDAP_BASE_DN: "dc=keensoft,dc=es"
+          LDAP_DOMAIN: "addocker.local"
+          LDAP_BASE_DN: "dc=addocker,dc=local"
           LDAP_ADMIN_PASSWORD: "admin"
         volumes: 
             - ./volumes/data/ldap:/var/lib/ldap
